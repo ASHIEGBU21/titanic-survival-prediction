@@ -1,0 +1,86 @@
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+        background-color: #0f0f0f;
+        color: #e5e5e5;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        background-color: #1a1a1a;
+        width: 420px;
+        padding: 28px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+
+    label {
+        font-size: 14px;
+        color: #bdbdbd;
+    }
+
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        margin-bottom: 14px;
+        background-color: #121212;
+        color: #ffffff;
+        border: 1px solid #333;
+        border-radius: 6px;
+        outline: none;
+    }
+
+    input::placeholder {
+        color: #777;
+    }
+
+    input:focus, select:focus {
+        border-color: #ffffff;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #e0e0e0;
+    }
+
+    .result {
+        margin-top: 20px;
+        padding: 12px;
+        text-align: center;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: #121212;
+        border: 1px solid #333;
+        color: #ffffff;
+    }
+</style>
