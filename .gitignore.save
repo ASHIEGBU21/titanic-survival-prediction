@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+git add .
+git commit -m "Initial commit: Titanic survival prediction Flask app"
+
+
